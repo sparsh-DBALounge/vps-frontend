@@ -1,3 +1,6 @@
-module.exports = {
-    allowedDevOrigins: ['139.59.67.135'],
-}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',
+};
+
+module.exports = nextConfig;
